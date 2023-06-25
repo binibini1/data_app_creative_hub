@@ -15,7 +15,10 @@ if st.button('Show list of countries'):
         list_of_countries=df['country'].unique()
         st.write(list_of_countries)
 
-
+option = st.selectbox
+'How would you like to be contracted?',
+list_of_countries
+    
 st.title('Creative hub data science project ')
 uploaded_file = st.file_uploader("Choose a file")
 if uploaded_file is not None:
